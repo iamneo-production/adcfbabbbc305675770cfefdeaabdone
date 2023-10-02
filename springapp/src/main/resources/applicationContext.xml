@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     
     <!-- Define a bean for the Student class -->
-    <bean id="student" class="your.package.name.Student">
+    <bean id="student" class="com.example.myproject">
         <property name="studentId" value="123"/>
         <property name="firstName" value="John"/>
         <property name="lastName" value="Doe"/>
