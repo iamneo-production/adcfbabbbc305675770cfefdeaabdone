@@ -1,0 +1,12 @@
+<!-- applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <!-- Define a bean for the Student class -->
+    <bean id="student" class="your.package.name.Student">
+        <property name="studentId" value="123"/>
+        <property name="firstName" value="John"/>
+        <property name="lastName" value="Doe"/>
+    </bean>
+</beans>
